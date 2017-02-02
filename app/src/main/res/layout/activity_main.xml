@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/background_light"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_gravity="top"
+            >
+
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intro: Shweta!"
+                android:textColor="#757575"
+                android:textSize="18sp"
+                android:id="@+id/textView2" />
+        </FrameLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               >
+
+         <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="45dp"
+         android:orientation="horizontal"
+         >
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:gravity="center"
+             android:background="@drawable/background_curve"
+             >
+             <ImageView
+                 android:layout_width="25dp"
+                 android:layout_height="25dp"
+                 android:tint="#ffffff"
+                 android:src="@drawable/video_camera"
+                 />
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:background="@drawable/background_curve"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:gravity="center"
+             >
+             <ImageView
+                 android:layout_width="25dp"
+                 android:layout_height="25dp"
+                 android:tint="#ffffff"
+                 android:src="@drawable/profile"
+                 />
+
+
+
+         </LinearLayout>
+
+         <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_weight="1"
+     android:background="@drawable/background_curve"
+     ></LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:gravity="center"
+             android:background="@drawable/background_curve"
+             >
+             <ImageView
+                 android:layout_width="25dp"
+                 android:layout_height="25dp"
+                 android:tint="#ffffff"
+                 android:src="@drawable/share"
+                 />
+
+
+         </LinearLayout>
+
+         <LinearLayout
+         android:layout_width="match_parent"
+         android:background="@drawable/background_curve"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+             android:gravity="center"
+         >
+             <ImageView
+                 android:layout_width="25dp"
+                 android:layout_height="25dp"
+                 android:tint="#ffffff"
+                 android:src="@drawable/love"
+                 />
+         </LinearLayout>
+
+     </LinearLayout>
+
+
+               </LinearLayout>
+           <!--</FrameLayout>-->
+</LinearLayout>
+            <testtask.kone.in.testtask.utility.RoundedImageVIew
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="23dp"
+                android:src="@drawable/plus"
+                />
+        </FrameLayout>
+           <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_marginTop="45dp"
+            >
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal"
+               >
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   >
+               <testtask.kone.in.testtask.utility.RoundedImageVIew
+
+                   android:src="@drawable/shweta"
+                   android:layout_width="60dp"
+                   android:layout_height="60dp"
+                   android:layout_marginTop="30dp"
+                   android:layout_marginLeft="28dp"
+                   android:layout_marginRight="10dp"
+                   /></LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shweta Singh"
+                        android:textColor="@color/titleTextColor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="329 likes"
+                            android:layout_marginRight="15dp"
+                            android:textColor="@color/titleTextColor"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:gravity="end"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                        <ImageView
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:src="@drawable/location"
+                            />
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:textSize="15sp"
+                         android:text="Delhi, 24 min ago"
+                         />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/textColor"
+                        android:text="A video introduction of myself."
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#eeeeee"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        >
+                        <testtask.kone.in.testtask.utility.RoundedImageVIew
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/shweta"
+                            android:id="@+id/imageView" />
+
+                        <TextView android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Aaron :"
+                            android:textColor="#da3731"
+                            />
+
+                        <TextView android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:text="Super!"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/textColor"
+                            android:id="@+id/textView" />
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textColor"
+                        android:textSize="15sp"
+                        android:text="View all 5 comments"
+                        android:layout_marginTop="10dp"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Write comment..."
+                        android:padding="10dp"
+                        android:textColorHint="@color/textColor"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="5dp"
+
+                        android:background="@drawable/boundary"
+                        />
+                </LinearLayout>
+           </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
