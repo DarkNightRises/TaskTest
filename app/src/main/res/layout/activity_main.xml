@@ -24,15 +24,11 @@
     >
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="270dp"
+            android:layout_height="360dp"
             android:layout_gravity="top"
+            android:id="@+id/videoViewLayout"
             >
 
-
-            <VideoView
-                android:id="@+id/videoView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
 
             <TextView
                 android:layout_marginTop="2dp"
@@ -43,6 +39,20 @@
                 android:textColor="#757575"
                 android:textSize="18sp"
                 android:id="@+id/textView2" />
+        <VideoView
+                android:layout_gravity="center_horizontal|center"
+
+                android:id="@+id/videoView"
+                android:layout_centerInParent="true"
+                android:layout_width="380dp"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:id="@+id/play_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/playbutton"
+                />
         </FrameLayout>
 
            <LinearLayout
@@ -146,7 +156,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="10dp"
             >
            <LinearLayout
                android:layout_width="match_parent"
@@ -160,10 +170,10 @@
                <testtask.kone.in.testtask.utility.RoundedImageVIew
 
                    android:src="@drawable/shweta"
-                   android:layout_width="60dp"
-                   android:layout_height="60dp"
-                   android:layout_marginTop="30dp"
-                   android:layout_marginLeft="28dp"
+                   android:layout_width="70dp"
+                   android:layout_height="70dp"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="18dp"
                    android:layout_marginRight="10dp"
                    /></LinearLayout>
                 <LinearLayout
@@ -199,6 +209,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
                         >
                         <ImageView
                             android:layout_width="22dp"
@@ -215,7 +226,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="14dp"
                         android:textColor="@color/textColor"
                         android:text="A video introduction of myself."
                         />
@@ -228,7 +239,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="8dp"
                         >
                         <testtask.kone.in.testtask.utility.RoundedImageVIew
                             android:layout_width="25dp"
@@ -258,7 +269,7 @@
                         android:textColor="@color/textColor"
                         android:textSize="15sp"
                         android:text="View all 5 comments"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginTop="14dp"
                         />
                     <EditText
                         android:layout_width="match_parent"
@@ -267,7 +278,7 @@
                         android:padding="10dp"
                         android:textColorHint="@color/textColor"
                         android:layout_marginRight="5dp"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="12dp"
 
                         android:background="@drawable/boundary"
                         />
